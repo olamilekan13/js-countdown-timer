@@ -6,7 +6,7 @@ body{
 }
 .container{
     white-space: nowrap;
-    color: #5808b3;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     position: absolute;
@@ -14,4 +14,10 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+#line{
+    border: none;
+    border-bottom: 1px solid white;
+    width: 30px;
+    margin: auto;
 }
